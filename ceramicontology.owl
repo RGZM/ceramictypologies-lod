@@ -185,6 +185,7 @@
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#exactMatch">
         <rdfs:subPropertyOf rdf:resource="http://www.wikidata.org/prop/direct/P2888"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label xml:lang="en">exact match</rdfs:label>
     </owl:ObjectProperty>
     
@@ -194,6 +195,7 @@
 
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#generalisedAs">
         <rdfs:subPropertyOf rdf:resource="http://archaeology.link/ontology#hasBroaderItem"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://archaeology.link/ontology#Potform"/>
         <rdfs:range rdf:resource="http://archaeology.link/ontology#GenericPotform"/>
         <rdfs:comment xml:lang="en">Potform -[generalised as]-&gt; Generic Potform</rdfs:comment>
@@ -317,6 +319,7 @@
 
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasType">
         <rdfs:subPropertyOf rdf:resource="http://archaeology.link/ontology#hasBroaderItem"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:label xml:lang="en">Potform -[has type]-&gt; Tradition</rdfs:label>
@@ -352,6 +355,7 @@
     <!-- http://www.w3.org/2002/07/owl#sameAs -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:ObjectProperty>
