@@ -13,6 +13,8 @@ Relevant classes from the `LADO Ontology` are:
 -   lado:Potform (skos:Concept, crm:E55_Type)
 -   lado:Shape_Collection (skos:Collection, crm:E1_CRM_Entity)
 
+![](https://raw.githubusercontent.com/RGZM/ceramictypologies-lod/main/classes.PNG?token=AB6C2Q6DFV2NSCJ52M4JFSTACQXLW)
+
 ## Properties
 
 Relevant properties are derived from `SKOS` properties:
@@ -27,3 +29,5 @@ Relevant properties are derived from `SKOS` properties:
 -   lado:hasSameGroove (derived from skos:related) ~ Potform-\[]->Potform
 -   lado:hasSameRoulette (derived from skos:related) ~ Potform-\[]->Potform
 -   lado:hasSameFlute (derived from skos:related) ~ Potform-\[]->Potform
+
+![](https://raw.githubusercontent.com/RGZM/ceramictypologies-lod/main/objectproperties.PNG?token=AB6C2Q6SDS6JPUF3ZNFCN7LACQXL2)
