@@ -31,3 +31,7 @@ Relevant properties are derived from `SKOS` properties:
 -   lado:hasSameFlute (derived from skos:related) ~ Potform-\[skos:related]->Potform
 
 ![](https://raw.githubusercontent.com/RGZM/ceramictypologies-lod/main/objectproperties.PNG?token=AB6C2Q6SDS6JPUF3ZNFCN7LACQXL2)
+
+## Credits
+
+CC BY 4.0 - Florian Thiery M.Sc., Dr. Allard Mees FSA
