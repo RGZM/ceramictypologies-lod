@@ -743,21 +743,21 @@
     
 
 
-    <!-- http://archaeology.link/ontology#Shape -->
+    <!-- http://archaeology.link/ontology#Service -->
 
-    <owl:Class rdf:about="http://archaeology.link/ontology#Shape">
-        <owl:equivalentClass rdf:resource="http://archaeology.link/ontology#Shape_Collection"/>
+    <owl:Class rdf:about="http://archaeology.link/ontology#Service">
+        <owl:equivalentClass rdf:resource="http://archaeology.link/ontology#Service_Collection"/>
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-        <rdfs:label xml:lang="en">Shape Type</rdfs:label>
+        <rdfs:label xml:lang="en">Service</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://archaeology.link/ontology#Shape_Collection -->
+    <!-- http://archaeology.link/ontology#Service_Collection -->
 
-    <owl:Class rdf:about="http://archaeology.link/ontology#Shape_Collection">
+    <owl:Class rdf:about="http://archaeology.link/ontology#Service_Collection">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-        <rdfs:label xml:lang="en">Shape Collection</rdfs:label>
+        <rdfs:label xml:lang="en">Service Collection</rdfs:label>
     </owl:Class>
     
 
