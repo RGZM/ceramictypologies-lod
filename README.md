@@ -19,15 +19,15 @@ Relevant classes from the `LADO Ontology` are:
 
 Relevant properties are derived from `SKOS` properties:
 
--   lado:exactMatch (derived from skos:exactMatch) ~ Potform-\[]->Potform
--   lado:hasMemberItem (derived from skos:member) ~ Service_Collection-\[]->Potform
--   lado:hasBroaderItem (derived from skos:broader) ~ Potform-\[]->Tradition ||  Potform-\[]->GenericPotform
--   lado:hasNarrowerItem (derived from skos:narrower) ~ Tradition-\[]->Potform ||  GenericPotform-\[]->Potform
--   lado:hasSameRim (derived from skos:related) ~ Potform-\[]->Potform
--   lado:hasSameWall (derived from skos:related) ~ Potform-\[]->Potform
--   lado:hasSameFootring (derived from skos:related) ~ Potform-\[]->Potform
--   lado:hasSameGroove (derived from skos:related) ~ Potform-\[]->Potform
--   lado:hasSameRoulette (derived from skos:related) ~ Potform-\[]->Potform
--   lado:hasSameFlute (derived from skos:related) ~ Potform-\[]->Potform
+-   lado:exactMatch (derived from skos:exactMatch) ~ Potform-\[skos:exactMatch]->Potform
+-   lado:hasMemberItem (derived from skos:member) ~ Service_Collection-\[skos:member]->Potform
+-   lado:hasBroaderItem (derived from skos:broader) ~ Potform-\[skos:broader]->Tradition ||  Potform-\[skos:broader]->GenericPotform
+-   lado:hasNarrowerItem (derived from skos:narrower) ~ Tradition-\[skos:narrower]->Potform ||  GenericPotform-\[skos:narrower]->Potform
+-   lado:hasSameRim (derived from skos:related) ~ Potform-\[skos:related]->Potform
+-   lado:hasSameWall (derived from skos:related) ~ Potform-\[skos:related]->Potform
+-   lado:hasSameFootring (derived from skos:related) ~ Potform-\[skos:related]->Potform
+-   lado:hasSameGroove (derived from skos:related) ~ Potform-\[skos:related]->Potform
+-   lado:hasSameRoulette (derived from skos:related) ~ Potform-\[skos:related]->Potform
+-   lado:hasSameFlute (derived from skos:related) ~ Potform-\[skos:related]->Potform
 
 ![](https://raw.githubusercontent.com/RGZM/ceramictypologies-lod/main/objectproperties.PNG?token=AB6C2Q6SDS6JPUF3ZNFCN7LACQXL2)
