@@ -13,6 +13,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:wikibase="http://wikiba.se/ontology#">
     <owl:Ontology rdf:about="http://archaeology.link/ontology#">
+        <owl:versionIRI rdf:resource="http://archaeology.link/ontology#/0.1"/>
         <dc:contributor>Allard Mees</dc:contributor>
         <dc:creator>Florian Thiery</dc:creator>
         <dc:description xml:lang="en">This ontology contains classes and properties to descibe ceramic typologies.</dc:description>
