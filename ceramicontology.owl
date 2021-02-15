@@ -247,6 +247,19 @@
     
 
 
+    <!-- http://archaeology.link/ontology#hasPublisher -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasPublisher">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#member"/>
+        <owl:inverseOf rdf:resource="http://archaeology.link/ontology#published"/>
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Potform"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Publisher"/>
+        <rdfs:label xml:lang="en">has publisher</rdfs:label>
+        <skos:definition xml:lang="en">this thing was created by a Person.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://archaeology.link/ontology#hasRelatedItem -->
 
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasRelatedItem">
@@ -342,6 +355,16 @@
 
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#locatedAt">
         <rdfs:subPropertyOf rdf:resource="http://archaeology.link/hasPointGeometry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#published -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#published">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#member"/>
+        <rdfs:label xml:lang="en">published</rdfs:label>
+        <rdfs:label xml:lang="en">this thing was created by a Person.</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -740,6 +763,16 @@
     <owl:Class rdf:about="http://archaeology.link/ontology#Potform">
         <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#GenericPotform"/>
         <rdfs:label xml:lang="en">Potform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Publisher -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Publisher">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Publisher</rdfs:label>
+        <skos:definition xml:lang="en">Creator of a thing.</skos:definition>
     </owl:Class>
     
 
@@ -1274,8 +1307,8 @@ With the exception of E59 Primitive Value, all other classes within the CRM are 
      -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
-        <skos:definition xml:lang="en">The class of OWL individuals.</skos:definition>
         <rdfs:label xml:lang="en">Thing</rdfs:label>
+        <skos:definition xml:lang="en">The class of OWL individuals.</skos:definition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
         <rdfs:label xml:lang="en">top data property</rdfs:label>
