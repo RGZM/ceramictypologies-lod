@@ -13,7 +13,7 @@ Relevant classes from the `LADO Ontology` are:
 -   lado:Tradition (skos:Concept, crm:E55_Type)
 -   lado:GenericPotform (skos:Concept, crm:E55_Type)
 -   lado:Potform (skos:Concept, crm:E55_Type)
--   lado:Shape_Collection (skos:Collection, crm:E1_CRM_Entity)
+-   lado:Service_Collection (skos:Collection, crm:E1_CRM_Entity)
 -   lado:Publisher (skos:Concept, crm:E39_Actor, foaf:Person)
 
 ## Properties
