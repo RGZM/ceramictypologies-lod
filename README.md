@@ -1,4 +1,4 @@
-# Ceramic Typologies Ontology
+# Ceramic Typologies Ontology (CeraTy Ontology)
 
 last update: 15/02/2021
 
