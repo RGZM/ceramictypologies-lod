@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+authors:
+  - family-names: Thiery
+    given-names: Florian
+    orcid: https://orcid.org/0000-0002-3246-3531
+  - family-names: Mees
+    given-names: Allard
+    orcid: https://orcid.org/0000-0002-7634-5342
+title: "Ceramic Typologies Ontology (CeraTyOnt)"
+version: 0.1
+type: dataset
+identifiers:
+  - description: This is the collection of archived snapshots of all versions of CeraTyOnt
+    type: doi
+    value: "10.5281/zenodo.TBD"
+  - description: This is the archived snapshot of version 0.1 of CeraTyOnt
+    type: doi
+    value: "10.5281/zenodo.TBD"
+date-released: 2021-12-08
+license: CC BY 4.0
+repository-code: "https://github.com/RGZM/ceramictypologies-lod"
+keywords:
+  - "Samian Ware"
+  - "Linked Open Data"
+  - "Ceramics"
+contact:
+  - affiliation: "RGZM, Mainz, Germany"
+    email: thiery@rgzm.de
+    family-names: Florian
+    given-names: Thiery
+preferred-citation:
+  authors:
+    - family-names: Thiery
+      given-names: Florian
+    - family-names: Thiery
+      given-names: Florian
+  title: "Ceramic Typologies Ontology (CeraTyOnt)"
+  type: ontology
+  year: 2021
