@@ -4,7 +4,7 @@
 
 ## Ontology
 
-The ontology is based on `OWL`, `RDFS`, `PROV-O`, `CIDOC CRM`, includes `AMT`, `FOAF`, `GeoSPARQL`, and extends `SKOS` properties and classes.
+The ontology is based on `OWL`, `RDFS`, `PROV-O`, `CIDOC CRM`, `FOAF` includes `AMT`, and extends `SKOS` properties and classes.
 
 ## Classes
 
