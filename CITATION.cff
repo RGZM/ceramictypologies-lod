@@ -13,10 +13,10 @@ type: dataset
 identifiers:
   - description: This is the collection of archived snapshots of all versions of CeraTyOnt
     type: doi
-    value: "10.5281/zenodo.TBD"
+    value: "10.5281/zenodo.5767082"
   - description: This is the archived snapshot of version 0.1 of CeraTyOnt
     type: doi
-    value: "10.5281/zenodo.TBD"
+    value: "10.5281/zenodo.5767083"
 date-released: 2021-12-08
 license: cc-by-4.0
 repository-code: "https://github.com/RGZM/ceramictypologies-lod"
