@@ -1307,8 +1307,8 @@ With the exception of E59 Primitive Value, all other classes within the CRM are 
      -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
-        <rdfs:label xml:lang="en">Thing</rdfs:label>
         <skos:definition xml:lang="en">The class of OWL individuals.</skos:definition>
+        <rdfs:label xml:lang="en">Thing</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
         <rdfs:label xml:lang="en">top data property</rdfs:label>
