@@ -1,6 +1,6 @@
 # Ceramic Typologies Ontology (CeraTyOnt)
 
-last update: 15/02/2021
+[![CITATION.cff](https://github.com/RGZM/ceramictypologies-lod/actions/workflows/cffvalidator.yml/badge.svg)](https://github.com/RGZM/ceramictypologies-lod/actions/workflows/cffvalidator.yml)
 
 ## Ontology
 
