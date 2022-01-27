@@ -1,5 +1,9 @@
 # Wikidata Entries
 
+## Project
+
+* https://www.wikidata.org/wiki/Wikidata%3AWikiProject_Linked_Open_Samian_Ware#Potforms
+
 Schmittchen99: https://www.wikidata.org/wiki/Special:Contributions/Schmittchen99
 
 ## General
