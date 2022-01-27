@@ -2,7 +2,7 @@
 
 ## Project
 
-* https://www.wikidata.org/wiki/Wikidata%3AWikiProject_Linked_Open_Samian_Ware#Potforms
+* https://www.wikidata.org/wiki/Wikidata:WikiProject_Ceramics_Typology
 
 Schmittchen99: https://www.wikidata.org/wiki/Special:Contributions/Schmittchen99
 
