@@ -4,7 +4,15 @@
 
 ## Ontology
 
-The ontology is based on `OWL`, `RDFS`, `PROV-O`, `CIDOC CRM`, `FOAF` includes `AMT`, and extends `SKOS` properties and classes.
+The ontology is based on `OWL`, `RDFS`, `PROV-O`, `CIDOC CRM`, `FOAF` includes `AMT`, and extends `SKOS` as well as `Wikidata`properties and classes.
+
+## Prefixes
+
+-   @PREFIX lado: <http://archaeology.link/ontology#>
+-   @PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+-   @PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+-   @PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+-   @PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 
 ## Classes
 
@@ -31,6 +39,8 @@ Relevant properties are derived from `SKOS` properties:
 -   lado:hasSameRoulette (derived from skos:related) ~ Potform-\[lado:hasSameRoulette]->Potform
 -   lado:hasSameFlute (derived from skos:related) ~ Potform-\[lado:hasSameFlute]->Potform
 -   lado:hasPublisher (derived from skos:member) ~ Potform-\[lado:hasPublisher]->Publisher
+-   lado:partiallyCoincidentWith (derived from wdt:P1382) ~ Potform-\[lado:partiallyCoincidentWith]->Potform
+-   lado:partiallyNotCoincidentWith (inverse of lado:partiallyCoincidentWith) ~ Potform-\[lado:partiallyNotCoincidentWith]->Potform
 
 ## Credits
 
