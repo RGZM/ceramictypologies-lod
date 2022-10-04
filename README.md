@@ -1,8 +1,6 @@
 # Ceramic Typologies Ontology (CeraTyOnt)
 
-[![CITATION.cff](https://github.com/RGZM/ceramictypologies-lod/actions/workflows/cffvalidator.yml/badge.svg)](https://github.com/RGZM/ceramictypologies-lod/actions/workflows/cffvalidator.yml)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5767082.svg)](https://doi.org/10.5281/zenodo.5767082)
+[![CITATION.cff](https://github.com/RGZM/ceramictypologies-lod/actions/workflows/cffvalidator.yml/badge.svg)](https://github.com/RGZM/ceramictypologies-lod/actions/workflows/cffvalidator.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5767082.svg)](https://doi.org/10.5281/zenodo.5767082)
 
 ## Ontology
 
