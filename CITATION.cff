@@ -11,12 +11,15 @@ title: "Ceramic Typologies Ontology (CeraTyOnt)"
 version: 0.1
 type: dataset
 identifiers:
-  - description: This is the collection of archived snapshots of all versions of CeraTyOnt
+  - description: This is the collection of archived snapshots of all versions
     type: doi
     value: "10.5281/zenodo.5767082"
-  - description: This is the archived snapshot of version 0.1 of CeraTyOnt
+  - description: This is the archived snapshot of version 0.1
     type: doi
     value: "10.5281/zenodo.5767083"
+  - description: This is the archived snapshot of version 0.2
+    type: doi
+    value: "10.5281/zenodo.7143098"
 date-released: 2021-12-08
 license: cc-by-4.0
 repository-code: "https://github.com/RGZM/ceramictypologies-lod"
